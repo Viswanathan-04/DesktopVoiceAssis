@@ -1,5 +1,7 @@
 from tkinter import *
 from tkinter import ttk,messagebox
+#Use Pip to install these libraries before using the app
+#	Example : pip install playsound (Type this in cmd with python installed)
 from playsound import playsound
 import threading
 import pyttsx3
@@ -10,6 +12,7 @@ import os
 import wikipedia
 import webbrowser
 import json
+
 from bs4 import BeautifulSoup
 import speech_recognition as sr
 
