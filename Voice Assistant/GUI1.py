@@ -330,5 +330,3 @@ try:
 
 except:
 	messagebox.showerror(title="Error",message='No Internet Connection\nPlease relaunch application after connecting to internet')
-
-#pyinstaller --add-data “*.png;.” yourscript.py
